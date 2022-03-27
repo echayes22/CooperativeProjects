@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KeyPadController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Label layoutX="29.0" layoutY="89.0" text="A1" />
+            <Label layoutX="80.0" layoutY="89.0" text="A2" />
+            <Label layoutX="134.0" layoutY="89.0" text="A3" />
+            <Label layoutX="29.0" layoutY="191.0" text="B1" />
+            <Label layoutX="80.0" layoutY="191.0" text="B2" />
+            <Label layoutX="134.0" layoutY="191.0" text="B3" />
+            <Label layoutX="29.0" layoutY="282.0" prefHeight="0.0" prefWidth="14.0" text="C1" />
+            <Label layoutX="80.0" layoutY="282.0" prefHeight="17.0" prefWidth="15.0" text="C2" />
+            <Label layoutX="146.0" layoutY="282.0" text="C3" />
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="4.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/coke.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="61.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/sprite.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="116.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/fanta.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="3.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/mntDew.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="62.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/redBullEnergy.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="116.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/reignEnergy.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="-3.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/starBucks.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="62.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/drPepper.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="119.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/pepsi.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="3.0" layoutY="282.0" text="1.25" />
+            <Label layoutX="56.0" layoutY="282.0" text="1.25" />
+            <Label layoutX="118.0" layoutY="282.0" text="1.25" />
+            <Label layoutX="3.0" layoutY="191.0" text="2.25" />
+            <Label layoutX="54.0" layoutY="191.0" text="2.50" />
+            <Label layoutX="107.0" layoutY="191.0" text="2.00" />
+            <Label layoutX="3.0" layoutY="89.0" text="1.50" />
+            <Label layoutX="54.0" layoutY="89.0" text="1.50" />
+            <Label layoutX="107.0" layoutY="89.0" text="1.50" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="buttonA" layoutX="29.0" layoutY="78.0" mnemonicParsing="false" onAction="#displayOptions" text="A" />
+            <Button fx:id="button1" layoutX="58.0" layoutY="78.0" mnemonicParsing="false" onAction="#displayOptions" text="1" />
+            <Button fx:id="button2" layoutX="92.0" layoutY="78.0" mnemonicParsing="false" onAction="#displayOptions" text="2" />
+            <Button fx:id="buttonB" layoutX="28.0" layoutY="113.0" mnemonicParsing="false" onAction="#displayOptions" text="B" />
+            <Button fx:id="button3" layoutX="58.0" layoutY="113.0" mnemonicParsing="false" onAction="#displayOptions" text="3" />
+            <Button fx:id="button4" layoutX="92.0" layoutY="113.0" mnemonicParsing="false" onAction="#displayOptions" text="4" />
+            <Button fx:id="buttonC" layoutX="28.0" layoutY="150.0" mnemonicParsing="false" onAction="#displayOptions" text="C" />
+            <Button fx:id="button5" layoutX="58.0" layoutY="150.0" mnemonicParsing="false" onAction="#displayOptions" text="5" />
+            <Button fx:id="button6" layoutX="92.0" layoutY="150.0" mnemonicParsing="false" onAction="#displayOptions" text="6" />
+            <Button fx:id="buttonD" layoutX="28.0" layoutY="187.0" mnemonicParsing="false" onAction="#displayOptions" text="D" />
+            <Button fx:id="button7" layoutX="58.0" layoutY="187.0" mnemonicParsing="false" onAction="#displayOptions" text="7" />
+            <Button fx:id="button8" layoutX="92.0" layoutY="187.0" mnemonicParsing="false" onAction="#displayOptions" text="8" />
+            <Button fx:id="buttonE" layoutX="29.0" layoutY="221.0" mnemonicParsing="false" onAction="#displayOptions" text="E" />
+            <Button fx:id="button9" layoutX="58.0" layoutY="221.0" mnemonicParsing="false" onAction="#displayOptions" text="9" />
+            <Button fx:id="button0" layoutX="92.0" layoutY="221.0" mnemonicParsing="false" onAction="#displayOptions" text="0" />
+            <TextField fx:id="textFieldCustomerInput" layoutX="6.0" layoutY="25.0" onAction="#displayOptions" prefHeight="43.0" prefWidth="149.0" />
+            <Button fx:id="buttonF" layoutX="29.0" layoutY="255.0" mnemonicParsing="false" onAction="#displayOptions" text="F" />
+            <Button fx:id="buttonStar" layoutX="59.0" layoutY="256.0" mnemonicParsing="false" onAction="#displayOptions" text="*" />
+            <Button fx:id="buttonCLR" layoutX="85.0" layoutY="256.0" mnemonicParsing="false" onAction="#displayOptions" text="CLR" />
+            <Label layoutX="223.0" layoutY="117.0" prefHeight="17.0" prefWidth="68.0" text="Enter Money" />
+            <TextField layoutX="189.0" layoutY="138.0" />
+            <Button fx:id="buttonBuy" layoutX="338.0" layoutY="138.0" mnemonicParsing="false" onAction="#displayOptions" text="Buy" />
+            <Button fx:id="buttonRefund" layoutX="338.0" layoutY="372.0" mnemonicParsing="false" onAction="#displayOptions" text="Refund" />
+            <Label layoutX="207.0" layoutY="204.0" text="Enjoy!" />
+            <Button fx:id="enterButton" layoutX="163.0" layoutY="34.0" mnemonicParsing="false" text="Enter" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="174.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
